@@ -1,0 +1,15 @@
+@import '../../scss/main';
+
+.button {
+   background-color: $mid-dark-blue3 !important;
+   font-size: 16px !important;
+   text-transform: capitalize !important;
+   color: $white;
+   border-radius: 50px !important;
+   padding: 6px 25px !important;
+   font-family: 'Poppins', sans-serif !important;
+
+   &:hover {
+    background-color: $mid-dark-blue2 !important;
+   }
+} // Primary button

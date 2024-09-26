@@ -1,0 +1,163 @@
+
+// font weight
+
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$black: 900;
+
+
+.font-72-black {
+  font-size: 72px;
+  font-weight: $black;
+}
+
+.font-49-light {
+  font-size: 49px;
+  font-weight: $light;
+}
+
+.font-48-light {
+  font-size: 48px;
+  font-weight: $light;
+}
+
+.font-30-light {
+  font-size: 30px;
+  font-weight: $light;
+}
+
+.font-30-semibold {
+  font-size: 30px;
+  font-weight: $semi-bold;
+}
+
+.font-30-medium {
+  font-size: 30px;
+  font-weight: $medium;
+}
+
+.font-24-light {
+  font-size: 24px;
+  font-weight: $light;
+}
+
+.font-24-normal {
+  font-size: 24px;
+  font-weight: $normal;
+}
+
+.font-24-semibold {
+  font-size: 24px;
+  font-weight: $semi-bold;
+}
+
+.font-20-normal {
+  font-size: 20px;
+  font-weight: $normal;
+}
+
+.font-24-medium {
+  font-size: 24px;
+  font-weight: $medium;
+}
+
+.font-18-semibold {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: $semi-bold;
+}
+
+.font-18-medium {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: $medium;
+}
+
+.font-18-light {
+  font-size: 18px;
+  font-weight: $light;
+}
+
+.font-16-light {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: $light;
+}
+
+.font-16-normal {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: $normal;
+}
+
+
+.font-16-semibold {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: $semi-bold;
+}
+
+.font-14-light {
+  font-size: 14px;
+  font-weight: $light;
+  line-height: 24px;
+}
+
+.font-14-medium {
+  font-size: 14px;
+  font-weight: $medium;
+  line-height: 36px;
+}
+
+
+
+// text genteral color
+
+.text-white {
+  color: $white;
+}
+
+.text-light-blue {
+  color:$light-blue;
+}
+
+.text-grey {
+  color: $dark-grey;
+}
+
+.text-grey2 {
+  color: $light-grey2;
+}
+
+.text-nevy {
+  color: $dark-blue;
+}
+
+.text-blue-opacity {
+  color: $blue-opacity;
+}
+
+.text-black {
+  color: $black3;
+}
+
+.text-black2 {
+  color: $black2;
+}
+
+.text-black4 {
+  color: $black4;
+}
+
+.text-red {
+  color: $red4;
+}
+
+.red-link {
+  color: $link-red;
+  text-decoration: none;
+}

@@ -1,0 +1,58 @@
+@import '../../scss/main.scss';
+
+.navbar {
+background-color: $light-blue;
+position: relative;
+
+.top-nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .menu-wrapper {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .menu-item {
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        color: $black2;
+      }
+
+     .active {
+      color: $red !important; 
+      position: relative;
+
+      &:before {
+        content: "";
+        height: 8px;
+        width: 8px;
+        background: $red; 
+        position: absolute;
+        left: -18px;
+        top: 2px;
+        bottom: 0;
+        margin: auto;
+        border-radius: 10px;
+      }
+     }
+    } /* menu-item */
+  } /* menu-wrapper */
+
+.menu-burger {
+  display: none;
+
+  svg {
+    font-weight: $bold;
+    font-size: 34px;
+    color: $dark-blue;
+}
+}
+
+} /* top-nav-wrapper */
+}

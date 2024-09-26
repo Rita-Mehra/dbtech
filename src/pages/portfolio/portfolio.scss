@@ -1,0 +1,58 @@
+@import '../../scss/main.scss';
+
+.portfolio {
+    margin-top: 80px;
+}
+
+.work-imgs {
+    box-shadow: 12px 12px $red4;
+    border-radius: 8px;
+}
+
+.protfolio-info {
+    max-width: 485px;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        content: " ";
+        left: 0px;
+        right: 0;
+        top: -10px;
+        bottom: -10px;
+        background: $light-blue;
+        position: absolute;
+        z-index: -1;
+        border-radius: 10px;
+        transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
+        box-shadow: $shadow3;
+        transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+    }
+
+    &:hover {
+        &::before {
+            transform: inherit;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+        }
+    }
+
+    .new-link {
+        svg {
+            color: $light-grey2;
+            cursor: pointer;
+        }
+    }
+}
+
+.hr {
+    border:none;
+    border-top:1px dashed $red4;
+    color: $light-blue;
+    background-color: $light-blue;
+    height:1px;
+  }

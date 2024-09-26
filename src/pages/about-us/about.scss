@@ -1,0 +1,24 @@
+@import '../../scss/main.scss';
+
+.client-experience {
+    margin: 70px 0;
+
+    .work-exp {
+        box-shadow: $shadow;
+        border-radius: 10px;
+        padding: 25px;
+    }
+}
+
+.dal-pillars {
+    z-index: 1;
+}
+
+.lines {
+    position: absolute;
+    z-index: -1;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 8%;
+}

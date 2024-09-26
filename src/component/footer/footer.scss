@@ -1,0 +1,66 @@
+@import '../../scss/main.scss';
+
+.footer {
+    background-color: $black1;
+    background-image: linear-gradient(to bottom, $white 15%, $black1 10%);
+
+    .footer-inp {
+        border-radius: 50px;
+        border: 0;
+        padding: 10px;
+        max-width: 300px;
+    }
+
+    .send-btn {
+        margin-left: -32px;
+    }
+
+    .footer-link {
+        li {
+            list-style: none;
+             
+            a {
+                font-size: 14px;
+                color: $mid-grey;
+                line-height: 36px;
+                text-decoration: none;
+                transition: all 0.2s ease;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+
+                &:hover {
+                    color: $white;
+                    transition: all 0.2s ease;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                }
+            }
+        }
+    }
+
+    .socil-links {
+        a {
+            margin-right: 10px;
+        }
+    }
+
+    .partner {
+        background: transparent linear-gradient(152deg, $mid-dark-blue 0%, $mid-blue2 100%) 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        padding: 35px 25%;
+        text-align: center;
+        bottom: 40px;
+        position: relative;
+    }
+
+}
+
+.pink-btn {
+    background: transparent linear-gradient(152deg, $red 0%, $red1 100%) 0% 0% no-repeat padding-box;
+    font-size: 16px !important;
+    text-transform: capitalize;
+    color: $white;
+    border-radius: 50px !important;
+    padding: 8px 25px !important;
+    border: none;
+}

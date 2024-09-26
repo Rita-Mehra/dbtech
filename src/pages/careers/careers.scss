@@ -1,0 +1,11 @@
+@import '../../scss/main.scss';
+
+.career-list {
+    margin-top: 80px;
+
+    .career-item {
+        padding: 30px;
+        border: 1px solid $mid-blue;
+        background-color: $light-blue;
+    }
+}

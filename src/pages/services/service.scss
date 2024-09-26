@@ -1,0 +1,46 @@
+@import '../../scss/main.scss';
+
+.p-14 {
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.our-services {
+    padding: 30px 15px;
+    background: $light-blue 0% 0% no-repeat padding-box;
+    border: 1px solid $mid-blue;
+    margin: 65px 0;
+}
+
+.service-list {
+
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+       background-color: $white;
+       box-shadow: $shadow2;
+       transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+    }
+}
+
+.consulting {
+    margin-top: 80px;
+    background: $white;
+    padding: 30px;
+    max-width: 40rem;
+    box-shadow: $shadow2;
+    border-radius: 10px;
+}
+
+.red-link {
+    svg {
+        width: 20px;
+        margin-left: 10px;
+    }
+}

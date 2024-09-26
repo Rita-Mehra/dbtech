@@ -1,0 +1,107 @@
+@media screen and (max-width: 1440px){
+    .icon-wrapper {
+        img {
+            height: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        .partner {
+            padding: 35px 15% !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    .menu-burger {
+        display: block !important;
+    }
+
+    .menu-open {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .menu-hide {
+        display: none;
+      }
+
+    .menu-wrapper {
+        display: block !important;
+
+        .menu-item {
+            border-bottom: 1px solid $light-grey;
+            padding: 10px 10px 10px 15px;
+
+            &:nth-last-child(1) {
+                border-bottom: none !important;
+               }
+        }
+    }
+
+    .home-header {
+        p {
+            max-width: 100% !important;
+        }
+    }
+
+    .footer {
+        .partner {
+            padding: 20px !important;
+        }
+    }
+
+    .font-72-black {
+        font-size: 48px;
+    }
+
+    .footer {
+        background-image: linear-gradient(to bottom, $white 7%, $black1 5%);
+    }
+
+    .lines {
+        display: none;
+    }
+
+    .max-w-23 {
+        max-width: 100% !important;
+    }
+    
+    .max-w-47 {
+        max-width: 100% !important;
+    }
+
+    .p-14 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .protfolio-info {
+        padding: 10px;
+    
+        &::before {
+            position: static;
+            transform: inherit !important;
+            background: $light-blue;
+        }
+    }
+
+    .work-imgs {
+        margin: 0;
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .font-72-black {
+        font-size: 36px;
+    }
+
+    .font-48-light {
+        font-size: 32px;
+    }
+}

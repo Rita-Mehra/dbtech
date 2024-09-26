@@ -1,0 +1,40 @@
+@import '../../scss/main.scss';
+
+.contact-us {
+    margin-top: 80px;
+}
+
+.input {
+    padding: 10px 0 !important;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    background-color: $red4;
+    border-radius: 10px;
+    box-shadow: $shadow2;
+    position: sticky;
+    top: 10px;
+
+    .contact-list {
+        color: $white;
+      
+            li {
+
+                margin-bottom: 15px;
+
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .contact-social-links {
+            a {
+                margin-right: 10px;
+             }
+        }
+    }
+

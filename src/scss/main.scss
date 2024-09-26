@@ -1,0 +1,47 @@
+@import "variable";
+@import "typography";
+@import "responsive";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+// custom spacings
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+// custom width
+
+.max-w-23 {
+    max-width: 23rem;
+}
+
+.max-w-47 {
+    max-width: 47%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+
+
